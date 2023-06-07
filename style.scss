@@ -31,17 +31,18 @@ h2 {
     padding: 0;
     margin: 0;
     font-size: 1.5em;
-    color: #000000;
+    // color: #000000;
+    color: transparent;
   }
 }
 // individual style
 .example-1 {
   background-color: #7f53ac;
-  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  background-image: linear-gradient(230deg, #7f53ac 35%, #647dee 90%);
 }
 .example-2 {
   background-color: #045de9;
-  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  background-image: linear-gradient(300deg, #045de9 25%, #09c6f9 90%);
 }
 .example-3 {
   background-color: #90d5ec;
