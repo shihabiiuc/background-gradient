@@ -1,0 +1,70 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+  // font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2 {
+  text-align: center;
+  margin: 0;
+  padding: 30px 15px;
+  background-color: #193549;
+  color: #9EFFFF;
+}
+// common styles
+.example {
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+    color: #000000;
+  }
+}
+// individual style
+.example-1 {
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+.example-2 {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+.example-3 {
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+}
+.example-4 {
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+}
+// gradient & image together
+.container{
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(#000000, 0.45)), url('https://shihabiiuc.com/wp-content/uploads/2022/01/bulb.jpg') no-repeat center;
+  background-size: cover;
+
+  h3 {
+    color: rgba($color: #FFFFFF, $alpha: 0.45);
+    font-size: 3em;
+    @media(min-width: 768px) {
+      font-size: 7em;
+    }
+  }
+}
