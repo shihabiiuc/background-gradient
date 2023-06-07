@@ -24,15 +24,11 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-bottom: 90px;
-  &:last-child {
-    margin-bottom: 0;
-  }
   p {
     padding: 0;
     margin: 0;
     font-size: 1.5em;
-    // color: #000000;
-    color: transparent;
+    color: #000000;
   }
 }
 // individual style
@@ -54,6 +50,7 @@ h2 {
 }
 // gradient & image together
 .container{
+  margin-bottom: 90px;
   min-height: 400px;
   display: flex;
   align-items: center;
@@ -68,4 +65,9 @@ h2 {
       font-size: 7em;
     }
   }
+}
+.container.example--2 {
+  margin-bottom: 0;
+  background: linear-gradient(to right, rgba(#000000, 0.45), rgba(#FF0000, .6)), url('https://shihabiiuc.com/wp-content/uploads/2022/01/bulb.jpg') no-repeat center;
+  background-size: cover;
 }

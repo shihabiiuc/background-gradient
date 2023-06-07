@@ -33,14 +33,11 @@ h2 {
           align-items: center;
   margin-bottom: 90px;
 }
-.example:last-child {
-  margin-bottom: 0;
-}
 .example p {
   padding: 0;
   margin: 0;
   font-size: 1.5em;
-  color: transparent;
+  color: #000000;
 }
 
 .example-1 {
@@ -64,6 +61,7 @@ h2 {
 }
 
 .container {
+  margin-bottom: 90px;
   min-height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,4 +84,11 @@ h2 {
   .container h3 {
     font-size: 7em;
   }
+}
+
+.container.example--2 {
+  margin-bottom: 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.45)), to(rgba(255, 0, 0, 0.6))), url("https://shihabiiuc.com/wp-content/uploads/2022/01/bulb.jpg") no-repeat center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(255, 0, 0, 0.6)), url("https://shihabiiuc.com/wp-content/uploads/2022/01/bulb.jpg") no-repeat center;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
